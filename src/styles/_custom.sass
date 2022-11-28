@@ -1,14 +1,23 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 15%
+  &-3
+    animation: float1 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 65%
+  &-4
+    animation: float1 4.8s ease-in-out infinite alternate
+    position: absolute
+    top: 41%
+    right: 60%
 
 
 @keyframes float1
@@ -17,3 +26,110 @@
 
   100%
     transform: translateY(0px)
+
+//Estilos adicionales
+  
+.lista-ul--color li > i:first-of-type 
+    color: #FC4B52
+
+.width-70
+  width: 70%
+
+.height-tarjetas
+  height: 430px
+
+.banner1-tema-1
+  background-image: url("../assets/curso/temas/tema1/bgr1.svg") !important
+  background-size: 100% 100%
+
+.clr-paleYellow
+  background-color: #FFE4E5
+
+.clr-paleYellow2
+  background-color: #FEE3E4
+
+.clr-paleYellow3
+  background-color: #DFF7F9
+
+.tabs-a__tab 
+    background-color: #E8E8E8
+
+.bloque-texto-g__img 
+    left: 50%
+
+.bloque-texto-g__texto 
+    right: 29%
+
+.puntos-caliente-2
+    background-color: #CBA124
+
+.puntos-caliente-5
+    background-color: #64892A
+
+//estilos adicionales
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta-tema1:before
+    background: #A7E446
+    
+.bgr-tarjeta-tema1
+    background: #E9F8D0
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido !important
+
+.acordion__activo
+  background-color: #FFF7E0 !important
+
+.background-descarga
+  background-color: #64892A !important
+
+.banner1-tema-3
+  background-image: url("../assets/curso/temas/tema3/bgr1.png") !important
+  background-size: 100% 100%
+
+.banner2-tema-2
+  background-image: url("../assets/curso/temas/tema2/bgr2.png") !important
+  background-size: 100% 100%
+  border-radius: 22px
+
+@media screen and ( max-width: 500px )
+  .bloque-texto-g__img 
+    left: 0%
+
+@media screen and ( max-width: 500px  )
+  .bloque-texto-g__texto 
+    right: 0%
+
+  

@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Plan de mercadeo turístico',
+    descripcionCurso:
+      'El plan de mercadeo es una herramienta de trabajo muy importante en las empresas, ya que es el documento que recopila el análisis del sector, las estrategias, tácticas y actividades necesarias para comercializar con éxito un producto turístico en el mercado; así mismo, incluye los objetivos propuestos y los indicadores sobre los cuales se realizará el seguimiento de lo planteado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,30 +41,50 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Planeación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan estratégico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipos de indicadores',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Recursos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Indicadores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Plan de mercadeo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Trazabilidad y plan de mejora',
         desarrolloContenidos: true,
       },
     ],
@@ -101,31 +130,109 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Planeación',
+      referencia:
+        'Presidencia de la República de Colombia (s.f.) <em>Comisión Nacional de Competitividad e Innovación.</em> ',
+      tipo: 'Página web',
+      link:
+        'http://www.colombiacompetitiva.gov.co/snci/el-sistema/comision-nacional-competitividad-innovacion',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Plan de mercadeo',
+      referencia:
+        'Kotler, P. y Keller, K. (2012). <em>Dirección de Marketing</em>. Prentice Hall.',
+      tipo: 'Libro',
+      link:
+        'https://www.montartuempresa.com/wp-content/uploads/2016/01/direccion-de-marketing-14edi-kotler1.pdf',
+    },
+    {
+      tema: 'Plan de mercadeo',
+      referencia:
+        'Universidad del País Vasco. (2015). Guía plan de marketing: guía inicial.',
+      tipo: 'Guía',
+      link:
+        'https://www.ehu.eus/documents/1432750/4992644/PLAN+DE+MARKETING+GU%C3%8DA+INICIAL+FINAL+cast.pdf',
+    },
+    {
+      tema: 'Plan de mercadeo',
+      referencia:
+        'Armstrong, G. y Kotler, P. (2013). <em>Fundamentos de marketing</em>. Pearson Educación.',
+      tipo: 'Libro',
+      link:
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/14584/mod_resource/content/1/Fundamentos%20del%20Marketing-Kotler.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Estrategias de <em>marketing</em>',
+      significado:
+        'es el conjunto de tácticas y actividades con los cuales la empresa persigue el cumplimiento de los objetivos de mercadeo y ventas.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Indicador de gestión',
+      significado:
+        'es la expresión cuantitativa del comportamiento y desempeño de un proceso cuya magnitud, al ser comparada con algún nivel de referencia, puede estar señalando una desviación sobre la cual se toman acciones correctivas o preventivas según el caso.',
+    },
+    {
+      termino: 'Mejora continua',
+      significado:
+        'el proceso de mejora continua es la ejecución constante de acciones que optimizan los procesos en una organización, minimizando al máximo el margen de error y de pérdidas.',
+    },
+    {
+      termino: 'Objetivos',
+      significado:
+        'son cada uno de los fines que se quieren alcanzar. Son enunciados claros, articulados y en el contexto organizacional son coherentes con las metas.',
+    },
+    {
+      termino: 'Plan de mercadeo',
+      significado:
+        'documento escrito que define las estrategias que se implementarán para lograr los objetivos de mercadeo y ventas de la empresa.',
+    },
+    {
+      termino: 'Planeación',
+      significado:
+        'es un proceso de análisis y determinación respecto a la consecución de una acción a realizar, una meta o un objetivo. ',
+    },
+    {
+      termino: 'Plan estratégico',
+      significado:
+        'es un documento que brinda una perspectiva sobre la forma en que se espera se desarrolle la empresa y el negocio en el largo, mediano y corto plazo.',
+    },
+    {
+      termino: 'Planes de mejora',
+      significado:
+        'son las acciones por implementar con base en los resultados observados de un proyecto, actividad o táctica realizada.',
+    },
+    {
+      termino: 'Presupuesto del plan de mercadeo',
+      significado:
+        'es la cuantificación o el cálculo anticipado de los recursos requeridos para poner en marcha el plan de mercadeo propuesto.',
+    },
+    {
+      termino: 'Recursos',
+      significado:
+        'son todo aquello que se requiere para garantizar el funcionamiento de la empresa y que esta desempeñe de manera idónea su objeto social.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Chiavenato, I. (2004). <em>Introducción a la teoría general de la administración</em>. Editorial Mc. Graw Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kotler, P. & Armstrong, G. (2007). <em>Marketing, Versión para Latinoamérica</em>. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kotler, P. y Keller, K. (2012). <em>Dirección de Marketing</em>. Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'Monroy González, L. L. & Simbaqueba Prieto, N. (2017) <em>La importancia de los indicadores de gestión en las organizaciones colombianas</em>. Universidad de La Salle.',
       link: '',
     },
   ],
