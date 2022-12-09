@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema1/img1.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img1.svg", alt="alt").banner-principal-decorativo-5
       .col-lg-8.mt-3
 
         p La palabra planeación tiene como alcance la ‘acción y efecto de proyectar’, viene del francés plant y del latín planta. Se podría entender como la acción de plantear en el presente las acciones que deberán ejecutarse en el futuro. De acuerdo con esto, un proceso de este tipo implica la formalización de lo que se pretende realizar, por lo tanto, involucra simultáneamente un análisis, determinación y recursos.
@@ -53,7 +53,7 @@
       .tarjeta.p-4.height-tarjetas.banner1-tema-1
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
         h3.text-center Determinar la situación actual 
         p.text-center Consiste en investigar y realizar un análisis del entorno y de la propia situación, es decir, conocer cuáles son las variables que no se pueden controlar pero que pueden impactar, a la vez que se realiza un diagnóstico de cómo está actualmente la empresa.
 

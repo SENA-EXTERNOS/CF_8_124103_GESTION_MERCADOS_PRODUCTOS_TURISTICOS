@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Indicadores
+      h1 Plan de mercadeo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema4/img1.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema4/img1.svg", alt="alt").banner-principal-decorativo-5
       .col-lg-8
 
         p Un plan de mercadeo (o plan de #[i marketing]) es un documento escrito que realiza el área de mercadeo/comercial de una empresa para detallar los objetivos propuestos enfocados en las ventas y los clientes. En este se define una hoja de ruta que permite dar lineamientos sobre qué, cómo y cuándo se realizarán las actividades. 
@@ -24,7 +24,7 @@
       p Existen dos tipos de planes de mercadeo que se pueden diseñar.  El primero se denomina ‘plan de mercadeo estratégico’, es aquel que involucra las principales variables de esta área y el portafolio de la empresa. Por otro lado, un ‘plan de mercadeo específico’ se da cuando se crean estrategias para impulsar sus productos. Desde este panorama, una empresa puede crear uno estratégico y varios específicos según el foco que quiera dar a sus diferentes bienes o servicios.
     
     .bg--img_03
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Plan de mercadeo estratégico para la marca")

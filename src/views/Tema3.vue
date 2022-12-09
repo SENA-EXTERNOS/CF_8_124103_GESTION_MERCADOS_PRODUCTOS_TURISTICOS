@@ -32,7 +32,7 @@
                   h3.mb-1.text-white Características de los indicadores
                   p.text-small.text-white Para ampliar la información sobre las características que debe tener un indicador, se invita a revisar el #[b anexo 1]
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -135,7 +135,7 @@
                   h3.mb-1.text-white Diseño e implementación de indicadores
                   p.text-small.text-white Para ampliar la información sobre los pasos para diseñar e implementar un indicador, se invita a revisar el #[b Anexo 2].  Pasos para diseñar e implementar un indicador.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.docx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

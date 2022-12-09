@@ -16,10 +16,8 @@
           )
 
           .bloque-texto-g__texto.p-4
-            p Constantemente, al interior de las empresas que trabajan en el sector eventos surgen oportunidades de cambio en su portafolio de servicios y productos; estos cambios se plasman en la creación de productos y servicios digitales para ser distribuidos a través de la #[i web]. 
-
-            p En el medio turístico, un ejemplo bien conocido son los mapas creados por Google, que en sí son la versión digital de un producto genérico, pero que a su vez sirven como base para el desarrollo de guías de eventos interactivos, como #[i Lonely Planet], que se pueden consumir mediante una #[i app]. 
-
+            p El plan estratégico de una empresa es un documento que brinda una perspectiva sobre la forma en la cual se espera se desarrolle la empresa y el negocio en el largo, mediano y corto plazo. Usualmente, se elabora en un período de tiempo de entre tres a cinco años, y se incluyen las metas y objetivos que esperan alcanzarse durante el mismo.
+            
     .row.mt-5
       p Los pasos para realizar un plan estratégico son:
 
@@ -31,7 +29,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Realizar un análisis externo: 
                 p Implica diagnosticar aquello que está por fuera de la empresa y la puede impactar. Se sugiere en este sentido utilizar la técnica PESTEL, es decir, buscar y analizar información asociada a lo político, económico, sociocultural, tecnológico y ecológico que rodea el campo de acción de la actividad de la empresa.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img7.svg', alt='')
 
@@ -39,7 +37,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 p Específicamente, es muy importante tener presente el escenario económico, especialmente porque el desempeño de una nación en esta área es factor clave de impacto para el desempeño de la actividad dentro de la misma. Para ello, puede ser útil buscar información en el DANE (Departamentos Administrativo Nacional de Estadística), las cámaras de comercio, datos abiertos e información en gremios que pueda ser de utilidad para comprender de una mejor manera el desempeño actual del sector económico en el cual se encuentra la empresa, así como las perspectivas y expectativas que se tienen al respecto.
 
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img8.svg', alt='')
 
@@ -47,7 +45,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 p A su vez, para formular un plan estratégico es relevante conocer el marco político, puesto que este permea el entorno de negocios. Es por ello que se sugiere que la empresa revise los documentos formales que existan respecto a las perspectivas políticas y económicas, con el fin de encontrar señales, alertas o condiciones que pueden beneficiarlos o perjudicarlos.
                 p En este contexto, surgen los planes de desarrollo, las agendas de competitividad y las agendas internas como insumos para obtener dicha información.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img9.svg', alt='')
 
@@ -55,7 +53,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Planes de desarrollo:
                 p en Colombia, son documentos que detallan los pilares sobre los cuales se desarrollará un gobierno, sea nacional (país), regional (departamento) o local (municipio). A partir de los mismos, se genera la hoja de ruta para la definición de programas y proyectos de impacto para la sociedad, las empresas y los ciudadanos. 
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
 
@@ -63,7 +61,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Agendas de competitividad:
                 p son instrumentos creados por el Gobierno y apoyados por diversos sectores de la economía para implementar de manera mancomunada y organizada los programas o acciones que permitan mejorar la competitividad del país. En este sentido, se crean como insumo para la elaboración de los planes de desarrollo.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
 
@@ -71,7 +69,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Agendas internas:
                 p constituyen mecanismos de cooperación entre el sector público, privado y la sociedad civil, con el fin de adelantar acciones estratégicas que posibiliten la mejora en la productividad y la competitividad del país.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
 
@@ -80,7 +78,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Realizar un análisis interno:
                 p es importante también tener mapeado el desempeño actual de la empresa, desde las áreas funcionales claves: dirección, talento humano, mercadeo y ventas, proceso productivo, finanzas y tecnología; esto permitirá tener una ‘radiografía’ del estado actual.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img13.svg', alt='')
 
@@ -89,15 +87,15 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Definir las metas y/u objetivos:
                 p se deben formular aquellas metas y objetivos que se consideren estratégicos para la empresa, y por supuesto, para su formulación deben contemplarse los hallazgos obtenidos en el análisis externo e interno previo.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img14.svg', alt='')
 
             .row.justify-content-center(titulo="").pt-3
               .col-lg-7.mb-4.mb-lg-0
                 h5 Plantear las estrategias:
-                p son las guías con las cuales se proyecta la consecución de las metas y objetivos
-              .col-lg-5.col-6
+                p son las guías con las cuales se proyecta la consecución de las metas y objetivos.
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img15.svg', alt='')
 
@@ -105,7 +103,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Implementación:
                 p la implementación del plan estratégico consiste en poner en marcha las estrategias diseñadas para la consecución de los objetivos.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img16.svg', alt='')
 
@@ -113,7 +111,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Evaluación y control:
                 p ambos son mecanismos permanentes de seguimiento. La evaluación permite mostrar a través de indicadores cómo está funcionando el plan con relación a lo trazado en él, y el control facilita desarrollar las acciones necesarias para encauzar de mejor manera lo que se viene ejecutando.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img17.svg', alt='')
 
@@ -121,7 +119,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h5 Documentar:
                 p los anteriores pasos deben ser documentados y socializados con los mandos medios de la organización, con la finalidad de que estos creen y accionen en conjunto con sus colaboradores los planes, proyectos o programas específicos para el logro de los objetivos y/o metas.
-              .col-lg-5.col-6
+              .col-lg-5.col-xs-10
                 figure
                   img(src='@/assets/curso/temas/tema2/img18.svg', alt='')
 
@@ -133,7 +131,7 @@
     #t_2_1
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1  Tipos de indicadores
+      h2 2.1  Objetivos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
@@ -178,7 +176,7 @@
 
           .tarjeta.puntos-caliente-5.p-3(x="90%" y="90%" numero="")
             .h5.mb-2.text-white Tiempo:
-            p.text-white El plazo.text-white para alcanzar el objetivo debe ser claro,  desde la definición del indicador hasta su socialización.
+            p.text-white El plazo para alcanzar el objetivo debe ser claro,  desde la definición del indicador hasta su socialización.
 
     .row.mt-5
       p Seguidamente, se redactan algunos objetivos para una agencia de viajes creada este año con presencia en un municipio de Colombia. En la columna de la derecha se evalúa si dicho objetivo está correctamente formulado y el motivo de dicha categorización.
@@ -220,7 +218,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure(data-aos="zoom-in-left")
-          img(src="@/assets/curso/temas/tema2/img4.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img4.svg", alt="alt").banner-principal-decorativo-5
       .col-lg-8
 
         p A nivel empresarial, los recursos son todo aquello que se requiere para garantizar el funcionamiento de la empresa, y poder desempeñar de manera idónea su objeto social (es decir, a lo que se dedica, sea la producción de un bien y/o la prestación de un servicio). Desde esta perspectiva, los recursos se clasifican en humanos, financieros, tecnológicos y técnicos.

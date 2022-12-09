@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Indicadores
+      h1 Trazabilidad y plan de mejora
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -36,7 +36,7 @@
                   h3.mb-1.text-white Características de los indicadores
                   p.text-small.text-white Para ampliar la información sobre las características que debe tener un indicador, se invita a revisar el #[b anexo 1]
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
