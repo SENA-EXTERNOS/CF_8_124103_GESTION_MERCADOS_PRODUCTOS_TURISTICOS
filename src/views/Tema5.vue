@@ -24,6 +24,9 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
          
+    .row.mt-5
+      p Con el fin de tener una perspectiva aplicada del tema, se invita a consultar el #[b Material complementario 1]- Guía plan de marketing de la Universidad del País Vasco.
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta.color-acento-botones.p-3.mb-5.background-descarga
@@ -33,10 +36,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Características de los indicadores
-                  p.text-small.text-white Para ampliar la información sobre las características que debe tener un indicador, se invita a revisar el #[b anexo 1]
+                  h3.mb-1.text-white Material complementario 1 - Ejemplo guía de marketing
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Material_complementario.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

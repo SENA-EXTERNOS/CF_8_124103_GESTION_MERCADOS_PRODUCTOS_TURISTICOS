@@ -201,7 +201,7 @@
 
             tr
               td Abrir una sucursal en el departamento de Antioquia en el próximo año.
-              td Es específico, medible, alcanzable, relevante  y tiene un horizonte temporal.
+              td Es específico, medible, alcanzable, relevante  y tiene un horizonte temporal. <br> De acuerdo con lo anterior, SÍ está bien estructurado.
 
             tr
               td Atraer clientes nuevos.
