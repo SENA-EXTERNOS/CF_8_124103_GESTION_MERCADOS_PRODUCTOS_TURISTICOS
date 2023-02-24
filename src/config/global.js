@@ -51,20 +51,7 @@ export default {
         numero: '2',
         titulo: 'Plan estratégico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Objetivos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Recursos',
-            hash: 't_2_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',

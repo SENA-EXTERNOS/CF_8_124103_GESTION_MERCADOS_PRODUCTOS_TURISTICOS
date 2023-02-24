@@ -10,13 +10,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta-tema1.p-4
-           p Los indicadores son mecanismos o instrumentos de medición que muestran cómo se está logrando un resultado, así que deben ser medibles y observables. En el ámbito empresarial se deben desarrollar para aquellas actividades o procesos relevantes al objetivo específico del área de la organización. En este sentido, de los indicadores generales surgen los indicadores claves de desempeño o #[i Key Performance Indicators], por sus siglas en inglés (KPI), que son una medida específica que evalúa cómo una empresa ejecuta su visión estratégica.
+          p.mb-0 Los indicadores son mecanismos o instrumentos de medición que muestran cómo se está logrando un resultado, así que deben ser medibles y observables. En el ámbito empresarial se deben desarrollar para aquellas actividades o procesos relevantes al objetivo específico del área de la organización. En este sentido, de los indicadores generales surgen los indicadores claves de desempeño o #[i Key Performance Indicators], por sus siglas en inglés (KPI), que son una medida específica que evalúa cómo una empresa ejecuta su visión estratégica.
 
     .row.mt-3
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Indicadores de gestión (KPI)]
+          h4.mb-0 Indicadores de gestión (KPI)
 
       p Los indicadores de gestión (KPI) permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador general, en otras palabras, permite poder entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades, oportunidades y amenazas.
 
@@ -41,16 +41,16 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Interpretación y análisis de los indicadores]
+          h4.mb-0 Interpretación y análisis de los indicadores
 
-      p Una vez se haya calculado el indicador de gestión se debe proceder con su interpretación.
+      p.mb-4 Una vez se haya calculado el indicador de gestión se debe proceder con su interpretación. A continuación, se darán pautas para la correcta interpretación de un indicador de gestión:
 
     .tarjeta.tarjeta--azul.p-4.banner1-tema-3
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Indicadores
-            p La interpretación del indicador es comprender lo que está ocurriendo en un proceso específico o actividad, a partir de lo cual se procede a la toma de decisiones, que son, por lo general, opciones de mejora para corregir un resultado que se desvía de lo esperado, logrando así resultados satisfactorios. 
+            p La interpretación del indicador se refiere a comprender lo que está ocurriendo en un proceso específico o actividad, a partir de lo cual se procede a la toma de decisiones, que son, por lo general, opciones de mejora para corregir un resultado que se desvía de lo esperado, logrando así resultados satisfactorios. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen')
@@ -58,8 +58,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Cultura de medición
-            p En la cultura de la medición del desempeño de las organizaciones, y al leer los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica que se encuentra vinculada con los niveles de tolerancia de los indicadores, los cuales envían señales de alerta.
-          
+            p En la cultura de la medición del desempeño de las organizaciones, al momento de leer los indicadores de gestión, es muy importante realizar el ejercicio planteado que se ve en la gráfica generada, que se encuentra vinculada con los niveles de tolerancia de los indicadores, los cuales envían señales de alerta.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
@@ -68,7 +67,6 @@
           .col-md-6.mb-4.mb-md-0
             h3 Evaluación del indicador
             p Para la evaluación del indicador, usualmente se establece una banda o escala para catalogar el resultado, lo que se conoce como semáforo. Por ejemplo, si es bueno generalmente se asocia al color verde, si es regular se relaciona con el color naranja, y si es malo se asocia al color rojo. A cada indicador se le establece una banda de tolerancia que permita calificar su cumplimiento.
-
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')
@@ -77,32 +75,28 @@
           .col-md-6.mb-4.mb-md-0
             h3 Ejemplo de rangos para evaluar indicadores
             p En seguida se muestra un ejemplo de una escala de evaluación. Cabe mencionar que la definición de los rangos es propia de cada empresa.
-
             p Según el ejemplo, cada resultado del indicador arrojará una evaluación;  en este caso, si la persona cumple al 100 % el resultado de su evaluación es bueno, si es del 60 % su indicador es malo.
-
           .col-md-6
             .row.mt-5
               .titulo-sexto.color-acento-contenido
-                  p(data-aos="fade-down").mb-0 #[b Tabla 2. ]#[i Ejemplo de rangos para evaluar indicadores]
+                h5(data-aos="fade-down").mb-0  Tabla 2
+                p.mb-0 #[i Ejemplo de rangos para evaluar indicadores]
 
               .tabla-a.color-acento-contenido 
                 table
-                  caption Nota: elaboración propia del experto
+                  caption 
+                    p.mb-0 #[b Fuente:] elaboración propia del experto
                   thead
                     tr
                       th Resultadosdel indicador (% de cumplimiento)
                       th Evaluación
-
                   tbody
                     tr
                       td Superior al 95 %
                       td Bueno
-
-
                     tr
                       td Entre el 94.9 % y el 80 %
                       td Regular
-
                     tr
                       td Menor al 80 %
                       td Malo
@@ -114,14 +108,16 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Pasos para diseñar e implementar un indicador]
-
+          h4.mb-0 Pasos para diseñar e implementar un indicador
+    
+    p A continuación se destacan los pasos necesarios para el diseño y la implementación de un indicador:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-            img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
-
+          img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
+          figcaption.mt-3 
+            p.mb-0 #[b Nota:] elaboración propia del experto.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -143,7 +139,7 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Reporte de los indicadores]
+          h4.mb-0 Reporte de los indicadores
 
       p Los reportes e informes de gestión basados en los indicadores deben centrarse en las estrategias de valor que se han diseñado para la satisfacción del cliente, sumado a las áreas organizacionales comprometidas en la atención, colaboración con el cliente y oportunidades de negocio. 
 

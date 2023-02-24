@@ -9,13 +9,13 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Verdadero y falso
+        .titulo-segundo.color-acento-contenido
+          h2 Conceptos claves del plan de mercadeo turístico
         p.mb-4 La siguiente actividad se realiza para identificar los conocimientos adquiridos durante el proceso de aprendizaje, sobre conceptos claves para la presentación de un plan estratégico del mercado turístico, según objetivos y procedimiento.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Verdadero y falso
+              p.fw-bold.mb-0 Falso / Verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar

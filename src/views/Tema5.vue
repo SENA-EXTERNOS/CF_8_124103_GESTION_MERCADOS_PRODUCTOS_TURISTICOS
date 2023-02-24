@@ -10,24 +10,21 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
-          )
-
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}")
           .bloque-texto-g__texto.p-4
             p La trazabilidad se refiere a tener documentado el seguimiento que se realiza a un plan, una estrategia, una táctica, una actividad o un proceso; es muy relevante porque posibilita tener una visión completa del inicio y el desarrollo de aquello que se está observando.
+    
+    p En el siguiente video conocerá más sobre trazabilidad, plan de mejora y sus particularidades:
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5           
+    .row.justify-content-center.align-items-center.mb-5.mt-4           
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
          
-    .row.mt-5
-      p Con el fin de tener una perspectiva aplicada del tema, se invita a consultar el #[b Material complementario 1]- Guía plan de marketing de la Universidad del País Vasco.
-    
-    .row.justify-content-center.align-items-center.mb-5
+  
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta.color-acento-botones.p-3.mb-5.background-descarga
           .row.justify-content-around.align-items-center
@@ -36,7 +33,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Material complementario 1 - Ejemplo guía de marketing
+                  h3.mb-1.text-white Ejemplo guía de #[em marketing]
+                  p.mb-0.text-white Con el fin de tener una perspectiva aplicada del tema, se invita a consultar el Material complementario 1 - Guía plan de #[em marketing] de la Universidad del País Vasco.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Material_complementario.pdf')" target="_blank")
                     span Descargar
