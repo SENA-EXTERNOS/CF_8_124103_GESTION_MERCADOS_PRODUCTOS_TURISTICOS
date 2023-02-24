@@ -251,7 +251,7 @@
 
         .col-lg-4
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema2/img6.jpg", alt="alt").img400.m-auto
 
 </template>
 

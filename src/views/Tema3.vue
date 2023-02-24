@@ -115,7 +115,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
           figcaption.mt-3 
             p.mb-0 #[b Nota:] elaboración propia del experto.
 
