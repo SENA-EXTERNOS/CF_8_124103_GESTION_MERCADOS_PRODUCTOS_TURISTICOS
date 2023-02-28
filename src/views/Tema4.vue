@@ -62,7 +62,7 @@
           i.fas.fa-square
           h4.mb-0 Esquema de un plan de mercadeo
 
-      p Debido a que no hay un esquema único de plan de mercadeo, cada empresa puede definir su propio derrotero. Kotler y Armstrong (2007) plantean una estructura básica y práctica, la cual se detalla a continuación como base para ejercicios en el entorno productivo:
+      p Debido a que no hay un esquema único de plan de mercadeo, cada empresa puede definir su propio derrotero. Kotler y Armstrong (2007), plantean una estructura básica y práctica, la cual se detalla a continuación, como base para ejercicios en el entorno productivo:
 
 
     .row.justify-content-center.align-items-center.mb-5.mt-3

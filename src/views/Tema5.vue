@@ -24,7 +24,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
          
   
-    .row.justify-content-center.align-items-center
+    //.row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta.color-acento-botones.p-3.mb-5.background-descarga
           .row.justify-content-around.align-items-center

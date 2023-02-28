@@ -107,7 +107,7 @@
 
               .col-lg-10.mt-3
                 h3 Planeación estratégica 
-                p La planeación estratégica es un conjunto de objetivos y metas específicas que permitan ejecutarse en un horizonte de tiempo definido y es potestad del grupo directivo de la organización. Suele diseñarse a largo plazo y surge como respuesta a la pregunta: ¿qué debe hacer la empresa para ser sostenible? La planeación estratégica es de suma importancia porque definirá qué es lo que debe realizarse para sobrevivir de forma rentable. 
+                p La planeación estratégica es un conjunto de objetivos y metas específicas que permiten ejecutarse en un horizonte de tiempo definido y es potestad del grupo directivo de la organización. Suele diseñarse a largo plazo y surge como respuesta a la pregunta: ¿qué debe hacer la empresa para ser sostenible? La planeación estratégica es de suma importancia porque definirá qué es lo que debe realizarse para sobrevivir de forma rentable. 
           
           .tarjeta.clr-paleYellow.p-4(titulo="Planeación táctica")
             .row.justify-content-center.align-items-center

@@ -79,8 +79,7 @@
           .col-md-6
             .row.mt-5
               .titulo-sexto.color-acento-contenido
-                h5(data-aos="fade-down").mb-0  Tabla 2
-                p.mb-0 #[i Ejemplo de rangos para evaluar indicadores]
+                p.mb-0 Ejemplo de rangos para evaluar indicadores
 
               .tabla-a.color-acento-contenido 
                 table
