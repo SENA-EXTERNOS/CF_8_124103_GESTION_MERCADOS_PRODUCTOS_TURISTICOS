@@ -117,14 +117,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Planeación',
-      referencia:
-        'Presidencia de la República de Colombia (s.f.) <em>Comisión Nacional de Competitividad e Innovación.</em> ',
-      tipo: 'Página web',
-      link:
-        'http://www.colombiacompetitiva.gov.co/snci/el-sistema/comision-nacional-competitividad-innovacion',
-    },
-    {
       tema: 'Plan de mercadeo',
       referencia:
         'Kotler, P. y Keller, K. (2012). <em>Dirección de Marketing</em>. Prentice Hall.',

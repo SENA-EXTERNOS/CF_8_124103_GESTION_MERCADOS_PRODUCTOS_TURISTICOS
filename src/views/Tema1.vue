@@ -98,65 +98,59 @@
 
     .row
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-contenido.mb-5        
-          .tarjeta.clr-paleYellow.p-4(titulo="Planeación estratégica ")
+        TabsC.color-acento-contenido.mb-5        
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Planeación estratégica ")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Planeación estratégica 
                 p La planeación estratégica es un conjunto de objetivos y metas específicas que permiten ejecutarse en un horizonte de tiempo definido y es potestad del grupo directivo de la organización. Suele diseñarse a largo plazo y surge como respuesta a la pregunta: ¿qué debe hacer la empresa para ser sostenible? La planeación estratégica es de suma importancia porque definirá qué es lo que debe realizarse para sobrevivir de forma rentable. 
           
-          .tarjeta.clr-paleYellow.p-4(titulo="Planeación táctica")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Planeación táctica")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Planeación táctica 
                 p La planeación táctica es el proceso que toma en cuenta lo definido en la estratégica y en la cual se empiezan a estructurar planes y programas en las diferentes áreas de la organización a mediano plazo, con el fin de apalancar el cumplimiento de los objetivos trazados durante la primera fase. En cuanto a la ejecución, es liderada por los mandos medios (jefes de área) de la empresa; principalmente se orienta hacia el liderazgo de los diferentes equipos y la optimización de los recursos disponibles.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Planeación operativa ")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Planeación operativa ")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Planeación operativa 
                 p La planeación operativa es aquella enfocada al cumplimiento de las diferentes actividades que se definieron en la táctica, por lo que sus resultados deben ser medibles en el corto plazo. Es ejecutada por todos los colaboradores de la organización, por lo que requiere de la asignación de recursos para su implementación.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Planeación normativa")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Planeación normativa")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Planeación normativa
                 p La planeación normativa, en algunos casos también conocida como prospectiva, es transversal a las demás y hace referencia a las políticas internas, reglamentos y/o procedimientos que deben seguirse dentro de la planeación de un objetivo. Es importante, porque permite la reducción de incertidumbre, porque se tienen definiciones validadas, a la vez que orienta la toma de decisiones, imposibilitando que los mandos medios realicen acciones de forma desordenada o parcial. 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Ejemplo de planeación")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Ejemplo de planeación")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Ejemplo de planeación
                 p Para ejemplificar mejor estos conceptos se da el siguiente contexto: una agencia de viajes define, dentro de su planeación estratégica, que se convertirá en la segunda empresa con mayor participación en el mercado en cinco años, por lo que le entrega diferentes planes a cada dependencia directiva. Específicamente, en el área de mercadeo, asignan la responsabilidad de posicionar la marca en todo el territorio colombiano, para lo cual se formulan una serie de actividades que apuntan al logro propuesto, siendo el manual de identidad corporativa el encargado de dar las pautas de cómo desarrollar la táctica. 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Ejemplo de planeación estratégica")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Ejemplo de planeación estratégica")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in-left")
                   img(src="@/assets/curso/temas/tema1/img15.svg", alt="alt")
 
               .col-lg-10.mt-3
-                h3 Ejemplo de planeación estratégica
                 p De acuerdo con lo anterior, lo definido dentro de la planeación es estratégico porque posibilita la permanencia de la empresa en el mercado; cuando el mercadeo define su plan, este es táctico, y cuando se enlistan las actividades que se deben realizar, se trata de una planeación operativa; el manual de marca es el reflejo de la planeación normativa.
 </template>
 
