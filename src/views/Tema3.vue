@@ -29,8 +29,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Características de los indicadores
-                  p.text-small.text-white Para ampliar la información sobre las características que debe tener un indicador, se invita a revisar el #[b anexo 1]
+                  h3.mb-1.text-white Anexo 1 - Características de los indicadores
+                  p.text-white Para ampliar la información sobre las características que debe tener un indicador, se invita a revisar el #[b anexo 1]
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                     span Descargar
@@ -87,8 +87,8 @@
                     p.mb-0 #[b Fuente:] elaboración propia del experto
                   thead
                     tr
-                      th Resultadosdel indicador (% de cumplimiento)
-                      th Evaluación
+                      th(style='width:65%') Resultados del indicador (% de cumplimiento)
+                      th(style='width:35%') Evaluación
                   tbody
                     tr
                       td Superior al 95 %
@@ -127,8 +127,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Diseño e implementación de indicadores
-                  p.text-small.text-white Para ampliar la información sobre los pasos para diseñar e implementar un indicador, se invita a revisar el #[b Anexo 2].  Pasos para diseñar e implementar un indicador.
+                  h3.mb-1.text-white Anexo 2 - Pasos para diseñar e implementar un indicador
+                  p.text-white Para ampliar la información sobre los pasos para diseñar e implementar un indicador, se invita a revisar el #[b Anexo 2].  Pasos para diseñar e implementar un indicador.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                     span Descargar
@@ -148,7 +148,7 @@
 
     .tarjeta.tarjeta--azul.p-4.banner1-tema-3
       SlyderA(tipo="b")
-        .row
+        .row.p-4
           .col-md-6.mb-4.mb-md-0
             h3 Informe analítico:
             p Detalla el KPI y trabaja para explicar qué fue lo que más impactó en sus resultados. Puede incluir datos históricos de informes anteriores para su comparación.
@@ -157,7 +157,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img6.svg', alt='Texto que describa la imagen')
 
-        .row
+        .row.p-4
           .col-md-6.mb-4.mb-md-0
             h3 Informe operativo:
             p Proporciona datos sobre cómo los KPI miden las operaciones diarias de una organización para que la dirección pueda tomar decisiones bien informadas.
@@ -166,7 +166,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img7.svg', alt='Texto que describa la imagen')
 
-        .row
+        .row.p-4
           .col-md-6.mb-4.mb-md-0
             h3 Informe estratégico:
             p Refleja la ‘salud’ de la organización y su progreso para que las partes interesadas puedan determinar si están cumpliendo los objetivos.
@@ -175,7 +175,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen')
 
-        .row
+        .row.p-4
           .col-md-6.mb-4.mb-md-0
             h3 Análisis de indicadores:
             p De acuerdo con lo revisado respecto de los indicadores, cabe resaltar su pertinencia dentro de la ejecución de cualquier tipo de acción porque mostrarán, de una forma puntual, cuáles son los resultados parciales o finales de lo planeado. Así mismo, se recalca la necesidad no solo de crearlos, sino de analizarlos, socializarlos y realizar las gestiones a las que haya lugar según los resultados que estén arrojando.

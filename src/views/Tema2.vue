@@ -197,8 +197,7 @@
               td Es específico, medible, alcanzable, relevante  y tiene un horizonte temporal. <br> De acuerdo con lo anterior, SÍ está bien estructurado.
             tr
               td Atraer clientes nuevos.
-              td Es relevante, alcanzable y medible, sin embargo, no es específico ni tiene un horizonte de tiempo definido.<br>
-                  De acuerdo con lo anterior, NO está bien estructurado.
+              td Es relevante, alcanzable y medible, sin embargo, no es específico ni tiene un horizonte de tiempo definido.<br> De acuerdo con lo anterior, NO está bien estructurado.
 
 
     #t_2_2
